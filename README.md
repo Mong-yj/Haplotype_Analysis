@@ -42,18 +42,21 @@
     
 4. conda 환경 실행 후 run
 
-#
-#
-#
+##
+##
+##
 
 ## using Tool
 ### 1. whatshap
+
     https://whatshap.readthedocs.io/en/latest/
 
 ### 2. yleaf
+
     https://github.com/genid/Yleaf
 
 ### 3. MHC
+
     HLA-LA
     https://github.com/DiltheyLab/HLA-LA
     
@@ -67,6 +70,7 @@
     https://github.com/Kingsford-Group/kourami
 
 ### 4. Pharmaco
+
     Pharmcat
     https://pharmcat.org/
     
