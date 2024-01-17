@@ -1,0 +1,29 @@
+name: Analysis_Hap
+channels:
+  - anaconda
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - bamutil=1.0.15=h2e03b76_1
+  - bzip2=1.0.8=h7b6447c_0
+  - fontconfig=2.13.1=h6c09931_0
+  - matplotlib-base=3.7.1=py310h1128e8f_1
+  - pthread-stubs=0.4=h36c2ea0_1001
+  - pyparsing=3.0.9=pyhd8ed1ab_0
+  - pyqt=5.12.3=py310hff52083_8
+  - pyqt-impl=5.12.3=py310h1f8e252_8
+  - python=3.10.9=h7a1cb2a_0
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python_abi=3.10=2_cp310
+  - readline=8.2=h5eee18b_0
+  - pip:
+    - aldy==4.4
+    - matplotlib==3.7.1
+    - numpy==1.25.0
+    - ortools==9.6.2534
+    - pandas==1.5.2
+    - pip==22.3.1
+prefix: /home/adminrig/anaconda3/envs/Analysis_Hap

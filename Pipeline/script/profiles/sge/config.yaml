@@ -1,0 +1,29 @@
+reason: true
+rerun-incomplete: true
+keep-going: true
+printshellcmds: true
+local-cores: 4
+#max-threads: 64
+jobs: 100
+max-jobs-per-second: 10
+use-conda: true
+conda-frontend: conda
+latency-wait: 120
+use-singularity: true
+singularity-args: '--nv '
+cluster: qsub -j y -cwd -V
+              -A {resources.account}
+              -q {resources.partition}
+              -pe orte {resources.threads}
+              -l mem_free={resources.mem_mb}M
+              -o {resources.out}
+              -e {resources.err} {resources.extra}
+default-resources: 
+  - account='$ACCOUNT'
+  - partition='$PARTITION'
+  - tmpdir=system_tmpdir
+  - threads='$THREADS'
+  - mem_mb=6000*threads
+  - out='./cluster_logs/sge-$JOB_NAME-$JOB_ID-$HOSTNAME.out'
+  - err='./cluster_logs/sge-$JOB_NAME-$JOB_ID-$HOSTNAME.err'
+  - extra=''
