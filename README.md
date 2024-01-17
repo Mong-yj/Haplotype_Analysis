@@ -9,7 +9,8 @@
     
     - Data 폴더 내 구조 예시
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/7ae9e35a-94e9-410c-a0b9-512409c3cf25/204f6aec-7d2a-49c5-8980-e038664e6274/Untitled.png)
+        ![image](https://github.com/Mong-yj/Haplotype_Analysis/assets/86939244/5db4b725-27fc-41af-8693-6c8ebe0a3fea)
+
         
 3. prepare 코드 실행
     
