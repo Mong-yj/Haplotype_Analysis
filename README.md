@@ -42,37 +42,37 @@
     
 4. conda 환경 실행 후 run
 
-
-
-
+#
+#
+#
 
 ## using Tool
 ### 1. whatshap
-https://whatshap.readthedocs.io/en/latest/
+    https://whatshap.readthedocs.io/en/latest/
 
 ### 2. yleaf
-https://github.com/genid/Yleaf
+    https://github.com/genid/Yleaf
 
 ### 3. MHC
-#### HLA-LA
-https://github.com/DiltheyLab/HLA-LA
-
-#### Optitype 
-https://github.com/FRED-2/OptiType
-
-#### xHLA
-https://github.com/humanlongevity/HLA
-
-#### kourami
-https://github.com/Kingsford-Group/kourami
+    HLA-LA
+    https://github.com/DiltheyLab/HLA-LA
+    
+    Optitype 
+    https://github.com/FRED-2/OptiType
+    
+    xHLA
+    https://github.com/humanlongevity/HLA
+    
+    kourami
+    https://github.com/Kingsford-Group/kourami
 
 ### 4. Pharmaco
-#### Pharmcat
-https://pharmcat.org/
-
-#### Stargazer 
-https://stargazer.gs.washington.edu/stargazerweb/
-
-#### aldy
-https://github.com/0xTCG/aldy
+    Pharmcat
+    https://pharmcat.org/
+    
+    Stargazer 
+    https://stargazer.gs.washington.edu/stargazerweb/
+    
+    aldy
+    https://github.com/0xTCG/aldy
 
