@@ -30,7 +30,7 @@
         --profile $script_path/profiles/sge \
         --conda-frontend conda \
         --nolock \
-    		--snakefile ./smk/whatshap.smk \
+        --snakefile ./smk/whatshap.smk \
     
     # 수정
     snakemake \
@@ -44,8 +44,7 @@
 4. conda 환경 실행 후 run
 
 ##
-##
-##
+
 
 ## using Tool
 ### 1. whatshap
