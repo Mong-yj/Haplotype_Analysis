@@ -15,7 +15,7 @@
 3. prepare 코드 실행
     
     ```bash
-    sh /ess/dlstibm/Workspace/workspace.ryj/Haplotype/Pipeline/prepare.sh [ whatshap / yleaf / MHC / Pharmaco ] 
+    sh ./Pipeline/prepare.sh [ whatshap / yleaf / MHC / Pharmaco ] 
     ```
     
     → **whatshap / yleaf / MHC / Pharmaco** 중 진행하고자 하는 Tool 이름 넣어 해당 스크립트 실행
