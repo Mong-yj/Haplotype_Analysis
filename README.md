@@ -2,7 +2,7 @@
 
 ## 실행 방법
 
-1. Pipeline 폴더 위치로 이동 (분석진행위치)
+1. Pipeline 폴더의 상위 폴더 위치로 이동 (분석진행위치)
 2. Data 폴더 생성하여 **input** 으로 사용 될 bam, vcf, fastq 파일 등을 복사 
     
     & **Sample_list.txt** 파일 생성하여 진행 할 Sample ID 기입 
