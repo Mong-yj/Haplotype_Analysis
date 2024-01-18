@@ -56,8 +56,6 @@ def select_allele_with_most_frequent(row):
 
 
 def main():
-    # os.chdir("/ess/dlstibm/Workspace/workspace.ryj/Haplotype/Step3.Apply")
-
     kourami = snakemake.input.kourami  # MHC/{sample}/kourami/{sample}.result
     HLA_LA = (
         snakemake.input.HLA_LA

@@ -25,9 +25,7 @@ def process_summary_file(file_path):
 
 
 def main():
-    with open(
-        "/ess/dlstibm/Workspace/workspace.ryj/Haplotype/Pipeline/Overlap_gene", "r"
-    ) as f:
+    with open("./Pipeline/Overlap_gene", "r") as f:
         target_gene = [i.strip() for i in f]
 
     result = {}

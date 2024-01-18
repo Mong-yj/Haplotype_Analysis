@@ -24,8 +24,8 @@ else
         exit 1
     fi
         
-    pipeline_path="/ess/dlstibm/Workspace/workspace.ryj/Haplotype/Pipeline"
-    script_path="/ess/dlstibm/Workspace/workspace.ryj/Haplotype/Pipeline/script"
+    pipeline_path="./Pipeline"
+    script_path="./Pipeline/script"
 
     # source script copy
     mkdir -p smk/config/

@@ -10,9 +10,7 @@ result = snakemake.output.summary
 sample = p.split("/")[-2]
 
 # target gene
-with open(
-    "/ess/dlstibm/Workspace/workspace.ryj/Haplotype/Pipeline/Overlap_gene", "r"
-) as f:
+with open("./Pipeline/Overlap_gene", "r") as f:
     target_gene = [i.strip() for i in f]
 
 Result = pd.DataFrame(columns=["Sample", "Gene", "Stargazer", "Pharmcat", "Aldy"])

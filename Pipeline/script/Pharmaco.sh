@@ -1,5 +1,5 @@
 #!/bin/bash
-script_path="/ess/dlstibm/Workspace/workspace.ryj/Haplotype/Pipeline/script"
+script_path="./Pipeline/script"
 
 # set umask to avoid locking each other out of directories
 umask 002

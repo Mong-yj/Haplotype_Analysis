@@ -10,9 +10,7 @@ def main():
     input_summary = snakemake.input.summary
     All_summary = snakemake.output.All_summary
 
-    with open(
-        "/ess/dlstibm/Workspace/workspace.ryj/Haplotype/Pipeline/MHC.allele", "r"
-    ) as f:
+    with open("./Pipeline/MHC.allele", "r") as f:
         MHC_allele = [i.strip() for i in f]
 
     result = {}
